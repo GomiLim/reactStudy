@@ -5,20 +5,27 @@ import Calc from './pages/calc';
 import Radio from './pages/radio';
 import Checkbox from './pages/checkbox';
 import LineDemo from './pages/chart2';
-import { MyLine } from './pages/chart3';
-import { Chart, ChartDoughnut, ChartLine } from './pages/chart';
+import LineGradient from './pages/lineGradient';
+import ChartBarDemo from './pages/chartBarDemo';
+import ChartStackedBarDemo from './pages/chartStackedBar';
+import ChartDoughnut from './pages/chartDoughnut';
 function App() {
   return (
     <div className='App'>
+      <Checkbox />
+
       {/* <Calc />
       <Radio />
-      <Checkbox />
-      <Chart />
+    
       <ChartDoughnut />
       <ChartLine />
-      <LineDemo /> */}
-      <canvas id='chart'></canvas>
-      <MyLine width={800} height={400} />
+      <LineDemo />*/}
+      {/* <canvas id='stChart'></canvas> */}
+      {/* <ChartStackedBarDemo /> */}
+      {/* <div className='line-gradient'>
+        <canvas id='chart'></canvas>
+        <LineGradient width={800} height={400} />
+      </div> */}
     </div>
   );
 }

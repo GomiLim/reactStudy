@@ -37,12 +37,12 @@ const Calc = () => {
   };
   return (
     <>
-      <div className="calc1">
+      <div className='calc1'>
         <button onClick={(e) => increaseButton(e)}> + </button>
         <button onClick={(e) => decreaseButton(e)}> - </button>
         <div>{result.calc1}</div>
       </div>
-      <div className="calc2">
+      <div className='calc2'>
         <button onClick={increaseButton}> + </button>
         <button onClick={decreaseButton}> - </button>
         <div>{result.calc2}</div>
