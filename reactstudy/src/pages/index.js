@@ -6,3 +6,4 @@ export * from './chartStackedBar';
 export * from './chartDoughnut';
 export * from './chart2';
 export * from './lineGradient';
+export * from './privacy';

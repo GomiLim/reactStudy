@@ -68,10 +68,6 @@ const Checkbox = () => {
 
   useEffect(() => {
     console.log(checkColor);
-  }, [checkColor]);
-
-  useEffect(() => {
-    console.log(checkColor);
   });
 
   return (
