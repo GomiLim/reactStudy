@@ -1,6 +1,6 @@
 import React from 'react';
 import Checkbox from '../../components/checkComponent';
-import useCheckbox from '../../containers/checkboxContainer';
+import { useCheckbox } from '../../hooks/useCheckbox';
 
 const CheckboxGroup = () => {
   const checkboxArray = [

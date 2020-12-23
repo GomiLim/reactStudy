@@ -58,10 +58,10 @@ const ChartStackedBarDemo = () => {
   };
 
   return (
-    <>
-      <div>차트입니다.</div>
+    <div style={{ width: 790, height: 400 }}>
+      <div>Stacked 차트입니다</div>
       <Bar data={data} width={300} height={200} options={options} />
-    </>
+    </div>
   );
 };
 

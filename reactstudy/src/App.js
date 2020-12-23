@@ -22,12 +22,12 @@ function App() {
       <ChartLine />
       <LineDemo />*/}
       {/* <canvas id='stChart'></canvas> */}
-      {/* <ChartStackedBarDemo /> */}
-      {/* <div className='line-gradient'>
+      <ChartStackedBarDemo />
+      <div className='line-gradient'>
         <canvas id='chart'></canvas>
         <LineGradient width={800} height={400} />
-      </div> */}
-      <CheckboxGroup />
+      </div>
+      {/* <CheckboxGroup /> */}
     </div>
   );
 }

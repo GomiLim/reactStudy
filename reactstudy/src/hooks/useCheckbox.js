@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 
-const useCheckbox = (length) => {
+export const useCheckbox = (length) => {
   const [form, setForm] = useState([]);
   const onChangeSingle = (checked, id) => {
     console.log(form, checked, id);
@@ -23,5 +23,3 @@ const useCheckbox = (length) => {
   }, []);
   return [form, onChangeSingle, onChangeAll];
 };
-
-export default useCheckbox;
