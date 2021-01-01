@@ -9,10 +9,11 @@ import LineGradient from './pages/lineGradient';
 import ChartBarDemo from './pages/chartBarDemo';
 import ChartStackedBarDemo from './pages/chartStackedBar';
 import ChartDoughnut from './pages/chartDoughnut';
+import CheckboxGroup from './pages/checkboxGroup';
 function App() {
   return (
     <div className='App'>
-      <Checkbox />
+      {/* <Checkbox /> */}
 
       {/* <Calc />
       <Radio />
@@ -26,6 +27,7 @@ function App() {
         <canvas id='chart'></canvas>
         <LineGradient width={800} height={400} />
       </div> */}
+      <CheckboxGroup />
     </div>
   );
 }
